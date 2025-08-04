@@ -91,13 +91,13 @@ LAST_NAME=User
 3. Select "Manage Roles"
 4. Add the Guest User to Gamma roles -->
 
-### 8. Test the Embedding
+### 6. Test the Embedding
 1. Go to your dashboard
 2. Click on the "..." menu in the top right
 3. You should see an "Embed dashboard" option
 4. Click it to get the embedding configuration
 
-### 9. Configure and Run Laravel
+### 7. Configure and Run Laravel
 ```
 1. cd laravel_superset_wrapper
 2. composer install
@@ -122,9 +122,6 @@ Visit: `http://your-laravel-app.com/superset/dashboard`
 
 ### Configuration
 - `config/superset.php` - Superset configuration file
-
-### Documentation
-- `SUPERSET_SETUP.md` - Detailed setup guide
 
 ## Usage Examples
 
@@ -180,7 +177,7 @@ All settings are configurable via environment variables or `config/superset.php`
 
 2. **"Failed to create guest token"**
    - Verify dashboard ID exists
-   - Check "Public" role has dashboard access
+   - Check "Gamma" role has dashboard access
    - Ensure embedding feature is enabled
 
 3. **Dashboard not loading**
