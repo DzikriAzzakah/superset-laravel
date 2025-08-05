@@ -101,7 +101,9 @@ LAST_NAME=User
 ```
 1. cd laravel_superset_wrapper
 2. composer install
-3. composer run dev
+3. npm install
+4. npm run build
+5. composer run dev
 ```
 ### 8. Access the Dashboard
 
